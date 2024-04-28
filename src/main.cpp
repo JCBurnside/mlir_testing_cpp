@@ -1,7 +1,7 @@
 #include "mlir/IR/MLIRContext.h"
 #include "mlir/InitAllDialects.h"
 #include "mlir/InitAllPasses.h"
-#include "Foo/dialect.h"
+#include "Foo/FooDialect.h"
 #include <iostream>
 int main() {
     mlir::DialectRegistry reg;

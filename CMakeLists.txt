@@ -19,8 +19,8 @@ include(HandleLLVMOptions)
 
 include_directories(${LLVM_INCLUDE_DIRS})
 include_directories(${MLIR_INCLUDE_DIRS})
-include_directories(Foo)
-add_subdirectory(Foo)
+include_directories(include)
+add_subdirectory(include)
 add_subdirectory(dialect_lib)
 get_property(dialect_libs GLOBAL PROPERTY MLIR_DIALECT_LIBS)
 add_llvm_executable(
